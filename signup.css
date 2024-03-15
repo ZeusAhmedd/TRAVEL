@@ -1,0 +1,182 @@
+.mb-4{
+    background-color: black;
+    /* border: 2px solid red; */
+    /* height: 90px; */
+  /* width: 1200px; */
+  border: 2px solid red; 
+  /* height: 50px; */
+}
+
+
+.fab{
+    color: aliceblue;
+}
+
+
+
+.fa-solid{
+    color: aliceblue;
+}
+  .container {
+display: flex;
+justify-content: center;
+align-items: center;
+/* border: 2px solid red; */
+height: 650px;
+}
+
+.form {
+display: flex;
+justify-content: center;
+align-items: center;
+transform-style: preserve-3d;
+transition: all 1s ease;
+
+}
+
+.form .form_front {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+position: absolute;
+backface-visibility: hidden;
+padding: 65px 45px;
+border-radius: 15px;
+box-shadow: inset 2px 2px 10px rgba(0,0,0,1),
+inset -1px -1px 5px rgba(255, 255, 255, 0.6);
+background-color: #212121;
+}
+
+.form .form_back {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+position: absolute;
+backface-visibility: hidden;
+transform: rotateY(-180deg);
+padding: 65px 45px;
+border-radius: 15px;
+box-shadow: inset 2px 2px 10px rgba(0,0,0,1),
+inset -1px -1px 5px rgba(255, 255, 255, 0.6);
+background-color: #212121;
+height: 500px;
+}
+
+.form_details {
+font-size: 25px;
+font-weight: 600;
+padding-bottom: 10px;
+color: white;
+}
+
+.input {
+width: 245px;
+min-height: 45px;
+color: #fff;
+outline: none;
+transition: 0.35s;
+padding: 0px 7px;
+background-color: #212121;
+border-radius: 6px;
+border: 2px solid #212121;
+box-shadow: 6px 6px 10px rgba(0,0,0,1),
+1px 1px 10px rgba(255, 255, 255, 0.6);
+}
+
+.input::placeholder {
+color: #999;
+}
+
+.input:focus.input::placeholder {
+transition: 0.3s;
+opacity: 0;
+}
+
+.input:focus {
+transform: scale(1.05);
+box-shadow: 6px 6px 10px rgba(0,0,0,1),
+1px 1px 10px rgba(255, 255, 255, 0.6),
+inset 2px 2px 10px rgba(0,0,0,1),
+inset -1px -1px 5px rgba(255, 255, 255, 0.6);
+}
+
+.btn {
+padding: 10px 35px;
+cursor: pointer;
+background-color: #212121;
+border-radius: 6px;
+border: 2px solid #212121;
+box-shadow: 6px 6px 10px rgba(0,0,0,1),
+1px 1px 10px rgba(255, 255, 255, 0.6);
+color: #fff;
+font-size: 15px;
+font-weight: bold;
+transition: 0.35s;
+}
+
+.btn:hover {
+transform: scale(1.05);
+box-shadow: 6px 6px 10px rgba(0,0,0,1),
+1px 1px 10px rgba(255, 255, 255, 0.6),
+inset 2px 2px 10px rgba(0,0,0,1),
+inset -1px -1px 5px rgba(255, 255, 255, 0.6);
+}
+
+.btn:focus {
+transform: scale(1.05);
+box-shadow: 6px 6px 10px rgba(0,0,0,1),
+1px 1px 10px rgba(255, 255, 255, 0.6),
+inset 2px 2px 10px rgba(0,0,0,1),
+inset -1px -1px 5px rgba(255, 255, 255, 0.6);
+}
+
+.form .switch {
+font-size: 13px;
+color: white;
+}
+
+.form .switch .signup_tog {
+font-weight: 700;
+cursor: pointer;
+text-decoration: underline;
+}
+
+.container #signup_toggle {
+display: none;
+}
+
+.container #signup_toggle:checked + .form {
+transform: rotateY(-180deg);
+}
+.navbar{
+  background-color: black;
+  color: aliceblue;
+}
+.nav-link{
+  color: aliceblue;
+}
+.navbar-brand{
+  color: aliceblue
+}
+.text-center{
+  height: 50px;
+}
+.fa-facebook-f:hover{
+  color: rgb(30, 52, 216);
+}
+.fa-github:hover{
+  color: black;
+}
+.fa-instagram:hover{
+  color: rgb(138, 55, 138);
+}
+.fa-twitter:hover{
+  color: rgb(0, 191, 255);
+}
+.fa-linkedin:hover{
+  color: rgb(10, 93, 209);
+}
